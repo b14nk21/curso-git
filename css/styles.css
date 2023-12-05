@@ -13,3 +13,25 @@
     border: 1px solid;
     border-color: red;
 }
+
+.cabecera {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    background-color: blue;
+    color: white;
+    padding: 1em 0em;
+}
+
+.cabecera p {
+    font-size: 2em;
+    font-weight: 500;
+    padding: 0em 0.5em;
+}
+
+.cabecera span {
+    font-size: 1.5em;
+    display: flex;
+    align-items: end;
+    padding: 0em 0.5em;
+}
